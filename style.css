@@ -1,0 +1,30 @@
+
+
+.barraMenu{
+    background: #bc5c3c;
+    display: block;
+    text-align: center;
+    
+   
+}
+.img__foto{
+
+    width: 300px;
+    height:300px;
+    border-radius:50%;
+    border:10px solid #c9795f;  /* identificar paleta de colores: https://pinetools.com/es/obtener-colores-imagen */
+    
+}
+
+.menu__nav a {
+    text-decoration:none;
+}
+
+body{
+    display: flex;
+}
+
+a{
+    display: block;
+    padding: 4%;
+}
