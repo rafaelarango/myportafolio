@@ -1,0 +1,55 @@
+/* SKILLS */
+
+.skills{
+    margin:0px;
+    padding: 30px;   
+}
+
+    .skills-tittle{
+        font-size:3.5em;
+        font-weight: normal;
+        color:rgb(54, 52, 52);
+        font-family: 'Teko', sans-serif;
+    }
+
+    .skillsContenido1{
+        margin-top: 70px; 
+        color: #999; 
+    }
+        .skillsContenido1-h3{
+            font-family: 'Teko', sans-serif;
+            font-weight: normal;
+        }
+
+        .skillsContenido-lista {
+            padding-left: 0px;
+            padding-top: 1em;
+            padding-bottom: 0.5em;
+        }
+
+            .skillsContenido-lista li{
+                display: inline;
+                padding:0 1.3em 0 0;
+                list-style-type:none;  
+            }
+
+    .skillsContenido2{
+        color: #999; 
+    }       
+        .skillsContenido2 li{
+            list-style-image: url(assets/checklistgris.png);
+        }
+
+
+@media screen and (max-width: 600px ) {
+    
+    .skills-tittle{
+        margin-bottom: -50px;
+    }
+
+    .skillsContenido1-h3{
+        font-size:small;
+    }
+}
+
+  
