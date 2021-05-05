@@ -5,49 +5,49 @@
     padding: 30px;   
 }
 
-    .skills-tittle{
+    .skills__title{
         font-size:3.5em;
         font-weight: normal;
         color:rgb(54, 52, 52);
         font-family: 'Teko', sans-serif;
     }
 
-    .skillsContenido1{
+    .skills__contents{
         margin-top: 70px; 
         color: #999; 
     }
-        .skillsContenido1-h3{
+        .skills__contents--title{
             font-family: 'Teko', sans-serif;
             font-weight: normal;
         }
 
-        .skillsContenido-lista {
+        .skills__lists {
             padding-left: 0px;
             padding-top: 1em;
             padding-bottom: 0.5em;
         }
 
-            .skillsContenido-lista li{
+            .skills__icon {
                 display: inline;
                 padding:0 1.3em 0 0;
                 list-style-type:none;  
             }
 
-    .skillsContenido2{
+    .skills__contents--second{
         color: #999; 
     }       
-        .skillsContenido2 li{
+        .skills__lists--second{
             list-style-image: url(assets/checklistgris.png);
         }
 
 
 @media screen and (max-width: 600px ) {
     
-    .skills-tittle{
+    .skills__title{
         margin-bottom: -50px;
     }
 
-    .skillsContenido1-h3{
+    .skills__contents--title{
         font-size:small;
     }
 }
