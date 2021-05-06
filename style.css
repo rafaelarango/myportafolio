@@ -19,6 +19,54 @@ body {
     overflow-y: scroll;
 }
 
+
+/* about */
+.about{
+    margin:0px;
+    padding: 5rem 3rem 5rem 3rem;   
+}
+.about__title{
+    display: flex;
+    height: 7rem;    
+}
+.about__title h1{
+    margin:0;
+}
+.about__title-1{
+    font-size:6rem;
+    font-weight: 600;
+    color:rgb(54, 52, 52);
+    font-family: 'Teko', sans-serif;
+}
+
+.about__title-2{
+    padding-left: 20px;
+    font-size:6rem;
+    font-weight: 600;
+    color:#bd5d38;
+    font-family: 'Teko', sans-serif;
+}
+.about__contact{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.about__contact--address p, .about__contact--email p{
+    margin:0;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    
+}
+.about__contact--email p{
+    padding-left: 15px;
+    color:#bd5d38;
+}
+
+.about__description p{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
 /* SKILLS */
 
 .skills{
@@ -26,40 +74,40 @@ body {
     padding: 30px;   
 }
 
-    .skills__title{
-        font-size:3.5em;
-        font-weight: normal;
-        color:rgb(54, 52, 52);
-        font-family: 'Teko', sans-serif;
-    }
+.skills__title{
+    font-size:3.5em;
+    font-weight: normal;
+    color:rgb(54, 52, 52);
+    font-family: 'Teko', sans-serif;
+}
 
-    .skills__contents{
-        margin-top: 70px; 
-        color: #999; 
-    }
-        .skills__contents--title{
-            font-family: 'Teko', sans-serif;
-            font-weight: normal;
-        }
+.skills__contents{
+    margin-top: 70px; 
+    color: #999; 
+}
+.skills__contents--title{
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+}
 
-        .skills__lists {
-            padding-left: 0px;
-            padding-top: 1em;
-            padding-bottom: 0.5em;
-        }
+.skills__lists {
+    padding-left: 0px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
 
-            .skills__icon {
-                display: inline;
-                padding:0 1.3em 0 0;
-                list-style-type:none;  
-            }
+.skills__icon {
+    display: inline;
+    padding:0 1.3em 0 0;
+    list-style-type:none;  
+}
 
-    .skills__contents--second{
-        color: #999; 
-    }       
-        .skills__lists--second{
-            list-style-image: url(assets/checklistgris.png);
-        }
+.skills__contents--second{
+    color: #999; 
+}       
+.skills__lists--second{
+    list-style-image: url(assets/checklistgris.png);
+}
 
 
 @media screen and (max-width: 600px ) {
@@ -67,10 +115,9 @@ body {
     .skills__title{
         margin-bottom: -50px;
     }
-
+    
     .skills__contents--title{
         font-size:small;
     }
 }
 
-  
