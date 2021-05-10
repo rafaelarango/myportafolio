@@ -106,9 +106,10 @@ body {
         line-height: 1.5;
         font-weight: bold;
     }
-
 }
+
     /* about */
+
 .about{
     margin:0px;
     padding: 5rem 3rem 5rem 3rem;   
@@ -131,13 +132,7 @@ body {
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 
-.about__title-2{
-    padding-left: 20px;
-    font-size:6rem;
-    font-weight: 700;
-    color:#bd5d38;
-    font-family: 'Saira Extra Condensed', sans-serif;
-}
+
 
 .about__contact{
     display: flex;
@@ -189,6 +184,7 @@ body {
         .content-perfil{
             display: none;
         }
+        
         .content__perfil--img{
             display: none;
         }
@@ -206,7 +202,19 @@ body {
             justify-content:space-between;
             align-items:center;
             padding: 1rem;
-            position: relative;
+            position: relative}
+        
+            .skills__icon {
+                display: inline;
+                padding:0 1.3em 0 0;
+                list-style-type:none;  
+            }
+
+    .skills__contents--second{
+        color: #999; 
+    }       
+        .skills__lists--second{
+            list-style-image: url(../assets/img/checklistgris.png);
         }
 
         .hamburguer-menu span{
