@@ -178,6 +178,23 @@ body {
     margin-right: 1.5rem;
 }
 
+/* Awards */
+
+.awards{
+    margin:0px;
+    padding: 30px;   
+}
+
+.awards-title{
+    font-size:3.5em;
+    font-weight: normal;
+    color:rgb(54, 52, 52);
+    font-family: 'Teko', sans-serif;
+}
+
+.awards__content{
+    color: #999; 
+}
 
 @media screen and (max-width:992px){
 
@@ -264,6 +281,12 @@ body {
     
         /* about */
         .about{            
+            margin:0px;
+            padding: 200px 16px 60px 16px;
+        }
+
+        /* Awards */
+        .awards{            
             margin:0px;
             padding: 200px 16px 60px 16px;
         }
