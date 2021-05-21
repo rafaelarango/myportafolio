@@ -5,110 +5,10 @@ body {
 
 
 
-/* SKILLS */
 
-.skills{
-    margin:0px;
-    padding: 30px;   
-}
 
-.skills__title{
-    font-size:3.5em;
-    font-weight: normal;
-    color:rgb(54, 52, 52);
-    font-family: 'Teko', sans-serif;
-}
 
-.skills__contents{
-    margin-top: 70px; 
-    color: #999; 
-}
-.skills__contents--title{
-    font-family: 'Teko', sans-serif;
-    font-weight: normal;
-}
-
-.skills__lists {
-    padding-left: 0px;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
-}
-
-.skills__icon {
-    display: inline;
-    padding:0 1.3em 0 0;
-    list-style-type:none;  
-}
-
-.skills__contents--second{
-    color: #999; 
-}       
-.skills__lists--second{
-    list-style-image: url(../assets/img/checklistgris.png);
-}
-
-@media screen and (min-width: 992px){
-    .content {
-        display: flex;
-        height: 100vh;
-    }
-    
-    .content-perfil {
-        background-color: #bd5d38;
-        width: 30%;
-        height: 100vh;
-    }
-    
-    .content-sliding {
-        width: 70%;
-        height: inherit;
-        overflow-y: scroll;
-    }
-
-    .content__menu--mobile{
-        display: none;
-    }    
-
-    /* MENU */
-    .content__pefil--menu{
-        padding-top: 4rem;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: center;    
-    }
-
-    .content__perfil--img{
-        max-width: 10rem;
-        max-height: 10rem;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2);
-        border-radius: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .content__perfil--items{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        padding: 0;
-        list-style: none;
-    }
-    .content__perfil--items li{
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-
-    .content__perfil--items a{
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.5);
-        font-family: 'Muli';
-        font-size: 1rem;
-        line-height: 1.5;
-        font-weight: bold;
-    }
-}
-
-    /* about */
+/*****************************************************  about ********************************************/
 
 .about{
     margin:0px;
@@ -178,7 +78,50 @@ body {
     margin-right: 1.5rem;
 }
 
-/* Awards */
+/* *************************************************************SKILLS *********************************************+++*/
+
+.skills{
+    margin:0px;
+    padding: 30px;   
+}
+
+.skills__title{
+    font-size:3.5em;
+    font-weight: normal;
+    color:rgb(54, 52, 52);
+    font-family: 'Teko', sans-serif;
+}
+
+.skills__contents{
+    margin-top: 70px; 
+    color: #999; 
+}
+.skills__contents--title{
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+}
+
+.skills__lists {
+    padding-left: 0px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.skills__icon {
+    display: inline;
+    padding:0 1.3em 0 0;
+    list-style-type:none;  
+}
+
+.skills__contents--second{
+    color: #999; 
+}       
+.skills__lists--second{
+    list-style-image: url(../assets/img/checklistgris.png);
+}
+
+
+/**************************************************** Awards ******************************************************/
 
 .awards{
     margin:0px;
@@ -195,6 +138,75 @@ body {
 .awards__content{
     color: #999; 
 }
+
+
+
+/***************************************************************  content - menu responsive min 992px ****************************************************************************/
+@media screen and (min-width: 992px){
+
+    /* content */
+    .content {
+        display: flex;
+        height: 100vh;
+    }
+    
+    .content-perfil {
+        background-color: #bd5d38;
+        width: 30%;
+        height: 100vh;
+    }
+    
+    .content-sliding {
+        width: 70%;
+        height: inherit;
+        overflow-y: scroll;
+    }
+
+    .content__menu--mobile{
+        display: none;
+    }    
+
+    /* MENU */
+    .content__pefil--menu{
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;    
+    }
+
+    .content__perfil--img{
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2);
+        border-radius: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .content__perfil--items{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding: 0;
+        list-style: none;
+    }
+    .content__perfil--items li{
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .content__perfil--items a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Muli';
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: bold;
+    }
+}
+
+
+/**************************************************** content - about - skills - awards  responsive max 992px *****************************************/
 
 @media screen and (max-width:992px){
 
@@ -221,19 +233,6 @@ body {
             padding: 1rem;
             position: relative}
         
-            .skills__icon {
-                display: inline;
-                padding:0 1.3em 0 0;
-                list-style-type:none;  
-            }
-
-    .skills__contents--second{
-        color: #999; 
-    }       
-        .skills__lists--second{
-            list-style-image: url(../assets/img/checklistgris.png);
-        }
-
         .hamburguer-menu span{
             font-family: 'Muli';
             color: white;
@@ -285,6 +284,21 @@ body {
             padding: 200px 16px 60px 16px;
         }
 
+        /* skills */
+        .skills__contents--second{
+            color: #999; 
+        }   
+
+        .skills__lists--second{
+            list-style-image: url(../assets/img/checklistgris.png);
+        }
+
+        .skills__icon {
+            display: inline;
+            padding:0 1.3em 0 0;
+            list-style-type:none;  
+        }
+
         /* Awards */
         .awards{            
             margin:0px;
@@ -297,7 +311,7 @@ body {
 
 
 
-
+/* ***********************************************skills responsive max 600px **********************************/
 @media screen and (max-width: 600px ) {
     
     .skills__title{
