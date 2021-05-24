@@ -1,15 +1,9 @@
+/**************************************  Estructura general del proyecto ***********************************++*/
 body {
     margin: 0;
 }
-/* Content */
-
-
-
-
-
 
 /*****************************************************  about ********************************************/
-
 .about{
     margin:0px;
     padding: 5rem 3rem 5rem 3rem;   
@@ -25,14 +19,11 @@ body {
 }
 
 .about__title span{
-   
     font-size:6rem;
     font-weight: 700;
     color:#bd5d38;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
-
-
 
 .about__contact{
     display: flex;
@@ -48,8 +39,7 @@ body {
     margin:0;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;  
 }
 
 .about__contact--email{
@@ -106,29 +96,25 @@ body {
 
         .experience__card--fecha{
             color: #bd5d38;
-
         }
 
         .experience__card--fecha--mobile{
             display: none;
         }
    
-
-
     .experience__card--subtitle{
         font-family: 'Teko', sans-serif;
         font-weight: normal;
         font-size: 1.5em;
-        color: #999;
-    
+        color: #999;  
         margin-top: 0px;
     }
+
     .experience__card--text{
         color: #6c757d;
         font-family: 'Muli';
         font-size: 1.15rem;
-        font-weight: 400;
-    
+        font-weight: 400;  
     }
 
 
@@ -150,6 +136,7 @@ body {
     margin-top: 50px; 
     color: #999; 
 }
+
 .skills__contents--title{
     font-family: 'Teko', sans-serif;
     font-weight: normal;
@@ -170,7 +157,8 @@ body {
 
 .skills__contents--second{
     color: #999; 
-}       
+} 
+
 .skills__lists--second{
     list-style-image: url(../assets/img/checklistgris.png);
 }
@@ -193,7 +181,6 @@ body {
 .awards__content{
     color: #999; 
 }
-
 
 
 /***************************************************************  content - menu responsive min 992px ****************************************************************************/
@@ -245,6 +232,7 @@ body {
         padding: 0;
         list-style: none;
     }
+
     .content__perfil--items li{
         text-align: center;
         margin-bottom: 1.5rem;
@@ -342,7 +330,6 @@ body {
         /* Experience */
         .experience__card--fecha{
             display: none;
-
         }
 
         .experience__card--fecha--mobile{
@@ -370,8 +357,6 @@ body {
             margin:0px;
             padding: 200px 16px 60px 16px;
         }
-    
-   
 }
 
 
