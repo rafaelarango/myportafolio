@@ -81,6 +81,10 @@ body {
         font-family: 'Saira Extra Condensed', sans-serif;
     }
 
+    .experience__card{
+        margin-top: 50px;
+    }
+
     .experience__card--header{
         display: flex;
         justify-content: space-between;
@@ -116,6 +120,65 @@ body {
         font-size: 1.15rem;
         font-weight: 400;  
     }
+
+
+/* ************************************************************* ECUCATION ************************************************/
+
+
+.education{
+    margin:0px;
+    padding: 5rem 3rem 5rem 3rem;   
+}
+
+    .education__title{
+        font-size:3.5em;
+        color:rgb(54, 52, 52);
+        font-family: 'Saira Extra Condensed', sans-serif;
+    }
+
+    .education__card{
+        margin-top: 50px;
+    }
+
+    .education__card--header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .education__card--title{
+            font-size:2em;       
+            color: #343a40;
+            font-family: 'Saira Extra Condensed', sans-serif;
+            margin-bottom: 0px;
+        }
+
+        .education__card--fecha{
+            color: #bd5d38;
+        }
+
+        .education__card--fecha--mobile{
+            display: none;
+        }
+   
+    .education__card--subtitle{
+        font-family: 'Teko', sans-serif;
+        font-weight: normal;
+        font-size: 1.5em;
+        color: #999;  
+        margin-top: 0px;
+    }
+
+    .education__card--text{
+        color: #6c757d;
+        font-family: 'Muli';
+        font-size: 1.15rem;
+        font-weight: 400;  
+    }
+
+
+
+
 
 
 /* *************************************************************SKILLS *************************************************/
@@ -333,6 +396,15 @@ body {
         }
 
         .experience__card--fecha--mobile{
+            display: block;
+        }
+
+         /* Educaction */
+         .education__card--fecha{
+            display: none;
+        }
+
+        .education__card--fecha--mobile{
             display: block;
         }
 
