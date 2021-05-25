@@ -68,7 +68,9 @@ body {
     margin-right: 1.5rem;
 }
 
-/* ************************************************************* EXPERIENCE *************************************************/
+
+/************************************************************** EXPERIENCE *************************************************/
+
 
 .experience{
     margin:0px;
@@ -77,8 +79,9 @@ body {
 
     .experience__title{
         font-size:3.5em;
+        font-weight: normal;
         color:rgb(54, 52, 52);
-        font-family: 'Saira Extra Condensed', sans-serif;
+        font-family: 'Teko', sans-serif;
     }
 
     .experience__card{
@@ -133,7 +136,8 @@ body {
     .education__title{
         font-size:3.5em;
         color:rgb(54, 52, 52);
-        font-family: 'Saira Extra Condensed', sans-serif;
+        font-family: 'Teko', sans-serif;
+        font-weight: normal;
     }
 
     .education__card{
@@ -175,10 +179,6 @@ body {
         font-size: 1.15rem;
         font-weight: 400;  
     }
-
-
-
-
 
 
 /* *************************************************************SKILLS *************************************************/
@@ -229,9 +229,33 @@ body {
 
 /**************************************************** Awards ******************************************************/
 
-.awards{
+
+.interests{
     margin:0px;
     padding: 5rem 3rem 5rem 3rem;   
+}
+
+.interests__title{
+    font-size:3.5em;
+    font-weight: normal;
+    color:rgb(54, 52, 52);
+    font-family: 'Teko', sans-serif;
+}
+
+.interests__text{
+    color: #6c757d;
+    font-family: 'Muli';
+    font-size: 1.15rem;
+    font-weight: 400;  
+}
+
+
+/**************************************************** Awards ******************************************************/
+
+
+.awards{
+    margin:0px;
+    padding: 0rem 3rem 5rem 3rem;   
 }
 
 .awards-title{
@@ -245,8 +269,14 @@ body {
     color: #999; 
 }
 
+.awards__card{
+    padding-left: 20px;;
+}
+
 
 /***************************************************************  content - menu responsive min 992px ****************************************************************************/
+
+
 @media screen and (min-width: 992px){
 
     /* content */
@@ -313,6 +343,7 @@ body {
 
 
 /**************************************************** content - about - skills - awards  responsive max 992px *****************************************/
+
 
 @media screen and (max-width:992px){
 
@@ -391,6 +422,11 @@ body {
         }
 
         /* Experience */
+        .experience{
+            margin: 0;
+            padding: 0px 16px 60px 16px;
+        }
+
         .experience__card--fecha{
             display: none;
         }
@@ -400,6 +436,10 @@ body {
         }
 
          /* Educaction */
+         .education{
+            padding: 0px 16px 60px 16px;
+         }
+
          .education__card--fecha{
             display: none;
         }
@@ -408,8 +448,10 @@ body {
             display: block;
         }
 
-
         /* skills */
+        .skills{
+            padding: 0px 16px 60px 16px;
+        }
         .skills__contents--second{
             color: #999; 
         }   
@@ -418,17 +460,21 @@ body {
             list-style-image: url(../assets/img/checklistgris.png);
         }
 
-        .skills__icon {
+        .skills__icon{
             display: inline;
             padding:0 1.3em 0 0;
             list-style-type:none;  
         }
 
-        /* Awards */
-        .awards{            
-            margin:0px;
-            padding: 200px 16px 60px 16px;
+        /* Interests */
+        .interests{
+            padding: 0px 16px 60px 16px;
         }
+
+        /* Awards */
+        .awards{
+            padding: 0px 16px 60px 16px;
+        }       
 }
 
 
