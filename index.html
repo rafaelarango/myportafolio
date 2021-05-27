@@ -18,7 +18,11 @@
     </head>
     
     <body>
-<!-- **************************************************************** Content. Estructura para el contenido del proyecto  -->
+
+
+<!-- **************************************************************** Content. Estructura para el contenido del proyecto  ***************************-->
+
+
         <div class="content">
             <div class="content-perfil">
                 <!-- Contenido de mi perfil -->
@@ -27,15 +31,14 @@
                 <div class="content__pefil--menu">                    
                     <img class="content__perfil--img" src="./assets/profile.jpg" alt="Imagen_perfil">                   
                     <ul class ="content__perfil--items">
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">EXPERIENCE</a></li>
-                        <li><a href="">EDUCATION</a></li>
-                        <li><a href="">SKILLS</a></li>
-                        <li><a href="">INTERESTS</a></li>
-                        <li><a href="">AWARDS</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#experience">EXPERIENCE</a></li>
+                        <li><a href="#education">EDUCATION</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#interests">INTERESTS</a></li>
+                        <li><a href="#awards">AWARDS</a></li>
                     </ul>
-                </div>
-                
+                </div>               
             </div>
             
             <!-- Dentro de este Div se deben almacenar todos los modulos -->
@@ -59,10 +62,10 @@
                 </div>
 
                 
-<!-- ******************************************************************************* Modulo 1. About ***********************************************************************-->
+<!-- ******************************************************************************* Modulo 1. About **************************************************-->
 
 
-                <div class="about">
+                <div class="about" id="about">
                     <h1 class="about__title">CLARENCE <span>TAYLOR</span></h1>                  
                     <div class="about__contact">
                         <div class="about__contact--address">
@@ -80,13 +83,13 @@
                         <a class="social-icon" href="#"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
+                <hr class="fin__modulo">
 
 
-<!-- *********************************************************************************** Modulo 2. "Experience" *********************************************************** -->
+<!-- *********************************************************************************** Modulo 2. "Experience" *************************************** -->
 
 
-                <div class="experience">
-
+                <div class="experience" id="experience">
                     <h1 class="experience__title">EXPERIENCE</h1>
 
                     <!-- SENIOR WEB DEVELOPER -->
@@ -158,14 +161,13 @@
                         </p>
                         <span class="experience__card--fecha experience__card--fecha--mobile">September 2008 - June 2010</span>
                     </div>
-
                 </div>
+                <hr class="fin__modulo">
 
 
-<!-- *********************************************************************************** Modulo 3. "Education" ************************************************************ -->
+<!-- *********************************************************************************** Modulo 3. "Education" **************************************** -->
                
-                <div class="education">
-
+                <div class="education" id="education">
                     <h1 class="education__title">EDUCATION</h1>
 
                     <!-- UNIVERSITY OF COLORADO BOULDER -->
@@ -202,20 +204,17 @@
                         </p>
                         <span class="education__card--fecha education__card--fecha--mobile">August 2002 - May 2006</span>
                     </div>
-
                 </div>
+                <hr class="fin__modulo">
 
 
-<!-- *********************************************************************************** Modulo 4. "Skills" **************************************************************** -->
+<!-- *********************************************************************************** Modulo 4. "Skills" ******************************************* -->
 
 
-                <div class="skills">
-                    
+                <div class="skills" id="skills">
                     <h1 class="skills__title">SKILLS</h1>
                     <div class="skills__contents">
-                        
                         <h1 class="skills__contents--title">PROGRAMMING LANGUAGES Y TOOLS</h1>
-                        
                         <ul class="skills__lists ">
                             <li class="skills__icon"> <img src="assets/img/css-3.png" alt="Css"> </li>
                             <li class="skills__icon"> <img src="assets/img/html.png" alt="Html"> </li>
@@ -229,30 +228,25 @@
                             <li class="skills__icon"> <img src="assets/img/julp.png" alt="Julp"> </li>
                             <li class="skills__icon"> <img src="assets/img/grunt.png" alt="Grunt"> </li>
                             <li class="skills__icon"> <img src="assets/img/npm.png" alt="npm"></li>
-                        </ul>
-                        
+                        </ul>            
                     </div>
-                    
-                    <div class="skills__contents--second">
-                        
-                        <h3>WORKFLOW</h3>
-                        
+                    <div class="skills__contents--second">                       
+                        <h3>WORKFLOW</h3>                       
                         <ol class="skills__lists--second">
                             <li>Mobile-First, Rsponsive Design</li>
                             <li>Cross Browser Testing y Debugging</li>
                             <li>Cross Fuctional Teams</li>
                             <li>Angile Development y Scrum</li>
-                        </ol>
-                        
+                        </ol>                        
                     </div>
                 </div>
+                <hr class="fin__modulo">
 
 
-<!-- **************************************************************************** Modulo 5. "Interests" ******************************************************************** -->
+<!-- **************************************************************************** Modulo 5. "Interests" ********************************************** -->
 
 
-                <div class="interests">
-
+                <div class="interests" id="interests">
                     <h1 class="interests__title">
                         INTERESTS
                     </h1>
@@ -261,15 +255,14 @@
                         <br>
                         When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
                     </p>
-
                 </div>
-
+                <hr class="fin__modulo">
 
                 
-<!-- **************************************************************************** Modulo 6. "Awards" ******************************************************************** -->
+<!-- **************************************************************************** Modulo 6. "Awards" ********************************************** -->
 
 
-                <div class="awards">
+                <div class="awards" id="awards">
                     <div class="awards__content">
                         <h1 class="awards-title">AWARDS & CERTIFICATIONS</h1>
                         <div class="awards__card">
@@ -286,10 +279,12 @@
             </div>
         </div>
         
+        
         <!-- javascript -->
         <script src="app.js"></script>
 
-        <!-- Fin del Proyecto -->
+
+                                                                            <!-- Fin del Proyecto -->
 
     </body>
     
