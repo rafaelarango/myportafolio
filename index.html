@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
@@ -20,7 +18,11 @@
     </head>
     
     <body>
-<!-- **************************************************************** Modulo 0. Content. Estructura para el contenido del proyecto  -->
+
+
+<!-- **************************************************************** Content. Estructura para el contenido del proyecto  ***************************-->
+
+
         <div class="content">
             <div class="content-perfil">
                 <!-- Contenido de mi perfil -->
@@ -29,15 +31,14 @@
                 <div class="content__pefil--menu">                    
                     <img class="content__perfil--img" src="./assets/profile.jpg" alt="Imagen_perfil">                   
                     <ul class ="content__perfil--items">
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">EXPERIENCE</a></li>
-                        <li><a href="">EDUCATION</a></li>
-                        <li><a href="">SKILLS</a></li>
-                        <li><a href="">INTERESTS</a></li>
-                        <li><a href="">AWARDS</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#experience">EXPERIENCE</a></li>
+                        <li><a href="#education">EDUCATION</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#interests">INTERESTS</a></li>
+                        <li><a href="#awards">AWARDS</a></li>
                     </ul>
-                </div>
-                
+                </div>               
             </div>
             
             <!-- Dentro de este Div se deben almacenar todos los modulos -->
@@ -59,8 +60,12 @@
                         </ul>
                     </div>    
                 </div>
-<!-- ******************************************************************************* Modulo 1. About ***********************************************************************-->
-                <div class="about">
+
+                
+<!-- ******************************************************************************* Modulo 1. About **************************************************-->
+
+
+                <div class="about" id="about">
                     <h1 class="about__title">CLARENCE <span>TAYLOR</span></h1>                  
                     <div class="about__contact">
                         <div class="about__contact--address">
@@ -78,26 +83,140 @@
                         <a class="social-icon" href="#"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
-
-<!-- *********************************************************************************** Modulo 2. "Experience" *********************************************************** -->
- 
+                <hr class="fin__modulo">
 
 
-<!-- *********************************************************************************** Modulo 3. "Education" ************************************************************ -->
+<!-- *********************************************************************************** Modulo 2. "Experience" *************************************** -->
+
+
+                <div class="experience" id="experience">
+                    <h1 class="experience__title">EXPERIENCE</h1>
+
+                    <!-- SENIOR WEB DEVELOPER -->
+                    <div class="experience__card">
+                        <div class="experience__card--header">
+                            <h1 class="experience__card--title">
+                                SENIOR WEB DEVELOPER
+                            </h1>
+                            <span class="experience__card--fecha">March 2013 - Present</span>
+                        </div>
+                        <h2 class="experience__card--subtitle">
+                            INTELITEC SOLUTIONS
+                        </h2>
+                        <p class="experience__card--text">
+                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, 
+                            going forward, a new normal that has evolved from generation X is on the runway heading towards a
+                            streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                        </p>
+                        <span class="experience__card--fecha experience__card--fecha--mobile">March 2013 - Present</span>
+                    </div>
+
+                    <!-- WEB DEVELOPER -->
+                    <div class="experience__card">
+                        <div class="experience__card--header">
+                            <h1 class="experience__card--title">
+                                WEB DEVELOPER
+                            </h1>
+                            <span class="experience__card--fecha">December 2011 - March 2013</span>
+                        </div>
+                        <h2 class="experience__card--subtitle">
+                            INTELITEC SOLUTIONS
+                        </h2>
+                        <p class="experience__card--text">
+                            Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                        </p>
+                        <span class="experience__card--fecha experience__card--fecha--mobile">December 2011 - March 2013</span>
+                    </div>
+
+                    <!-- JUNIOR WEB DESIGNER -->
+                    <div class="experience__card">
+                        <div class="experience__card--header">
+                            <h1 class="experience__card--title">
+                                JUNIOR WEB DESIGNER
+                            </h1>
+                            <span class="experience__card--fecha">July 2010 - December 2011</span>
+                        </div>
+                        <h2 class="experience__card--subtitle">
+                            SHOUT! MEDIA PRODUCTIONS
+                        </h2>
+                        <p class="experience__card--text">
+                            Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                        </p>
+                        <span class="experience__card--fecha experience__card--fecha--mobile">July 2010 - December 2011</span>
+                    </div>
+
+                    <!-- WEB DESIGN INTERN -->
+                    <div class="experience__card">
+                        <div class="experience__card--header">
+                            <h1 class="experience__card--title">
+                                WEB DESIGN INTERN
+                            </h1>
+                            <span class="experience__card--fecha">September 2008 - June 2010</span>
+                        </div>
+                        <h2 class="experience__card--subtitle">
+                            SHOUT! MEDIA PRODUCTIONS
+                        </h2>
+                        <p class="experience__card--text">
+                            Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                        </p>
+                        <span class="experience__card--fecha experience__card--fecha--mobile">September 2008 - June 2010</span>
+                    </div>
+                </div>
+                <hr class="fin__modulo">
+
+
+<!-- *********************************************************************************** Modulo 3. "Education" **************************************** -->
                
+                <div class="education" id="education">
+                    <h1 class="education__title">EDUCATION</h1>
+
+                    <!-- UNIVERSITY OF COLORADO BOULDER -->
+                    <div class="education__card">
+                        <div class="education__card--header">
+                            <h1 class="education__card--title">
+                                UNIVERSITY OF COLORADO BOULDER
+                            </h1>
+                            <span class="education__card--fecha">August 2006 - May 2010</span>
+                        </div>
+                        <h2 class="education__card--subtitle">
+                            BACHELOR OF SCIENCE
+                        </h2>
+                        <p class="education__card--text">
+                            Computer Science - Web Development Track <br>
+                            GPA: 3.23
+                        </p>
+                        <span class="education__card--fecha education__card--fecha--mobile">August 2006 - May 2010</span>
+                    </div>
+
+                     <!-- JAMES BUCHANAN HIGH SCHOOL -->
+                     <div class="education__card">
+                        <div class="education__card--header">
+                            <h1 class="education__card--title">
+                                JAMES BUCHANAN HIGH SCHOOL
+                            </h1>
+                            <span class="education__card--fecha">August 2002 - May 2006</span>
+                        </div>
+                        <h2 class="education__card--subtitle">
+                            TECHNOLOGY MAGNET PROGRAM
+                        </h2>
+                        <p class="education__card--text">
+                            GPA: 3.56
+                        </p>
+                        <span class="education__card--fecha education__card--fecha--mobile">August 2002 - May 2006</span>
+                    </div>
+                </div>
+                <hr class="fin__modulo">
 
 
+<!-- *********************************************************************************** Modulo 4. "Skills" ******************************************* -->
 
-<!-- *********************************************************************************** Modulo 4. "Skills" **************************************************************** -->
-                <div class="skills">
-                    
+
+                <div class="skills" id="skills">
                     <h1 class="skills__title">SKILLS</h1>
                     <div class="skills__contents">
-                        
                         <h1 class="skills__contents--title">PROGRAMMING LANGUAGES Y TOOLS</h1>
-                        
                         <ul class="skills__lists ">
-                            <li class="skills__icon"> <img src="assets/img/css-3.png" alt="Css"> </li>
+                            <li class="skills__icon"> <img src="assets/img/css-tres.png" alt="Css"> </li>
                             <li class="skills__icon"> <img src="assets/img/html.png" alt="Html"> </li>
                             <li class="skills__icon"> <img src="assets/img/js.png" alt="JS"> </li>
                             <li class="skills__icon"> <img src="assets/img/angular.png" alt="Angular"></li>
@@ -109,28 +228,41 @@
                             <li class="skills__icon"> <img src="assets/img/julp.png" alt="Julp"> </li>
                             <li class="skills__icon"> <img src="assets/img/grunt.png" alt="Grunt"> </li>
                             <li class="skills__icon"> <img src="assets/img/npm.png" alt="npm"></li>
-                        </ul>
-                        
+                        </ul>            
                     </div>
-                    
-                    <div class="skills__contents--second">
-                        
-                        <h3>WORKFLOW</h3>
-                        
+                    <div class="skills__contents--second">                       
+                        <h3>WORKFLOW</h3>                       
                         <ol class="skills__lists--second">
                             <li>Mobile-First, Rsponsive Design</li>
                             <li>Cross Browser Testing y Debugging</li>
                             <li>Cross Fuctional Teams</li>
                             <li>Angile Development y Scrum</li>
-                        </ol>
-                        
+                        </ol>                        
                     </div>
                 </div>
+                <hr class="fin__modulo">
 
-<!-- **************************************************************************** Modulo 5. "Interestes" ******************************************************************** -->
+
+<!-- **************************************************************************** Modulo 5. "Interests" ********************************************** -->
+
+
+                <div class="interests" id="interests">
+                    <h1 class="interests__title">
+                        INTERESTS
+                    </h1>
+                    <p class="interests__text">
+                        Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking. <br>
+                        <br>
+                        When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                    </p>
+                </div>
+                <hr class="fin__modulo">
+
                 
-<!-- **************************************************************************** Modulo 6. "Awards" ******************************************************************** -->
-                <div class="awards">
+<!-- **************************************************************************** Modulo 6. "Awards" ********************************************** -->
+
+
+                <div class="awards" id="awards">
                     <div class="awards__content">
                         <h1 class="awards-title">AWARDS & CERTIFICATIONS</h1>
                         <div class="awards__card">
@@ -147,8 +279,13 @@
             </div>
         </div>
         
+        
         <!-- javascript -->
         <script src="app.js"></script>
+
+
+                                                                            <!-- Fin del Proyecto -->
+
     </body>
     
     </html>
